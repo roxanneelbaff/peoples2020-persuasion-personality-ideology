@@ -25,10 +25,10 @@ Code for the paper (PEOPLES Workshop @ COLING 2020):
 
 ## Overview
 
-**Question:** how do readers with different ideologies and personalities react to the content and style of persuasive text?
+**We answer the question:** how do readers with different ideologies and personalities react to the content and style of persuasive text?
 
-- **Data:** 1,000 New York Times editorials, each annotated by 3 liberal and 3 conservative readers as *challenging*, *reinforcing*, or *no effect*. Annotators have a Pew political-typology result and Big Five scores (0–100).
-- **Reader profiles:**
+- **Data Used for the analysis:** 1,000 New York Times editorials, each annotated by 3 liberal and 3 conservative readers as *challenging*, *reinforcing*, or *no effect*. Annotators have a Pew political-typology result and Big Five scores (0–100).
+- **Effect of Editorials on Reader profiles:**
   - *Personality traits* – low / average / high per Big Five trait (14 profiles; agreeableness has no "average").
   - *Personality groups* – k-means (k=2) on the five traits: **a** (role models: low neuroticism, high others) vs. **b** ("other").
   - *Ideology intensity* – **extreme** (solid liberal / core conservative) vs. **lean**.
@@ -40,6 +40,7 @@ Code for the paper (PEOPLES Workshop @ COLING 2020):
 
 ## Setup
 
+Use UV to easily reproduce the code.
 Python 3.8, managed with [uv](https://docs.astral.sh/uv/) (`pyproject.toml`, `uv.lock`).
 
 ```bash
