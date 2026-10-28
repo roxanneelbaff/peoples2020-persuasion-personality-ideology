@@ -1,0 +1,428 @@
+sep=;
+feature;is_normal (shapiro);is_homogeneous (levene);p_value;is_significant;effect;result;('reinforcing', 'no_effect');('reinforcing', 'no_effect');('reinforcing', 'challenging');('reinforcing', 'challenging');('no_effect', 'challenging');('no_effect', 'challenging')
+adu_anecdote;False;False;0.7362206432545055;False;;;False;;False;;False;
+adu_other;False;False;0.14130396363509612;False;;;False;;False;;False;
+adu_statistics;False;False;0.09442771413186452;False;;;False;;False;;False;
+adu_testimony;False;False;0.9672672690506863;False;;;False;;False;;False;
+mpqa_arg_assessments;False;False;0.49739418150974213;False;;;False;;False;;False;
+mpqa_arg_authority;False;False;0.3121272667403155;False;;;False;;False;;False;
+mpqa_arg_causation;False;False;0.883454761349485;False;;;False;;False;;False;
+mpqa_arg_conditionals;False;False;0.7040127688411514;False;;;False;;False;;False;
+mpqa_arg_contrast;False;False;0.43508963258697564;False;;;False;;False;;False;
+mpqa_arg_difficulty;False;False;0.17431614571200868;False;;;False;;False;;False;
+mpqa_arg_doubt;False;False;0.9687353299832089;False;;;False;;False;;False;
+mpqa_arg_emphasis;False;False;0.8197593515728262;False;;;False;;False;;False;
+mpqa_arg_generalization;False;False;0.3565090558431474;False;;;False;;False;;False;
+mpqa_arg_inconsistency;False;False;0.6903012468816179;False;;;False;;False;;False;
+mpqa_arg_lexicon_ratio;False;False;0.08348288356562242;False;;;False;;False;;False;
+mpqa_arg_necessity;False;False;0.21410517727113532;False;;;False;;False;;False;
+mpqa_arg_possibility;False;False;0.3419928918366221;False;;;False;;False;;False;
+mpqa_arg_priority;False;False;0.4427955923026843;False;;;False;;False;;False;
+mpqa_arg_rhetoricalquestion;False;False;0.14722686851993552;False;;;False;;False;;False;
+mpqa_arg_structure;False;False;0.100455836366587;False;;;False;;False;;False;
+mpqa_arg_wants;False;False;0.3772254284884737;False;;;False;;False;;False;
+mpqa_subjobg_obj;False;False;0.21466124146702273;False;;;False;;False;;False;
+nrc_anger;False;False;0.0076755227782778325;True;;;False;;True;-0.09;True;-0.22
+nrc_anticipation;False;False;0.03209470237692086;True;;;False;;False;;True;-0.17
+nrc_disgust;False;False;0.007548984987392614;True;;;False;;False;;True;-0.22
+nrc_fear;False;False;0.0010090804554177722;True;;;False;;True;-0.11;True;-0.27
+nrc_joy;False;False;0.06296188875759488;False;;;False;;False;;False;
+nrc_negative;False;False;0.0003111278248574587;True;;;False;;True;-0.13;True;-0.27
+nrc_positive;False;False;0.07058474542164865;False;;;False;;False;;False;
+nrc_ratio;True;True;0.009103540720630302;True;low;F(2,780)= 4.73, p = 0.0091035, ω2 = 0.01;False;;False;;True;-0.2
+nrc_sadness;False;False;0.0018774932892134197;True;;;False;;True;-0.1;True;-0.26
+nrc_surprise;False;False;0.29713518630512625;False;;;False;;False;;False;
+nrc_trust;False;False;0.15253197966253224;False;;;False;;False;;False;
+liwc_scores_analytic;False;False;0.006425658057326281;True;;;False;;True;0.12;True;0.2
+liwc_scores_authentic;False;False;0.9007763567846305;False;;;False;;False;;False;
+liwc_scores_categories_AllPunc;False;False;0.2586791863746581;False;;;False;;False;;False;
+liwc_scores_categories_Apostro;False;False;0.9990441571916308;False;;;False;;False;;False;
+liwc_scores_categories_Colon;False;False;0.07457809694462272;False;;;False;;False;;False;
+liwc_scores_categories_Comma;False;False;0.5443812867547444;False;;;False;;False;;False;
+liwc_scores_categories_Dash;False;False;0.7719657804296739;False;;;False;;False;;False;
+liwc_scores_categories_Exclam;False;False;0.26224768488371664;False;;;False;;False;;same values;same values
+liwc_scores_categories_OtherP;False;False;0.9042750367018099;False;;;False;;False;;False;
+liwc_scores_categories_Parenth;False;False;0.8093183793960738;False;;;False;;False;;False;
+liwc_scores_categories_Period;False;False;0.04786887504012606;True;;;False;;False;;False;
+liwc_scores_categories_QMark;False;False;0.37118483392801954;False;;;False;;False;;False;
+liwc_scores_categories_Quote;False;False;0.71744661684205;False;;;False;;False;;same values;same values
+liwc_scores_categories_SemiC;False;False;0.791428859841609;False;;;False;;False;;False;
+liwc_scores_categories_achieve;False;False;0.05327091244839232;False;;;False;;False;;False;
+liwc_scores_categories_adj;False;False;0.8889934357048823;False;;;False;;False;;False;
+liwc_scores_categories_adverb;False;False;0.3760546924223885;False;;;False;;False;;False;
+liwc_scores_categories_affect;False;False;0.007423888750113678;True;;;False;;True;-0.12;True;-0.18
+liwc_scores_categories_affiliation;False;False;0.11281305920049495;False;;;False;;False;;False;
+liwc_scores_categories_anger;False;False;0.0007472031206417676;True;;;False;;True;-0.13;True;-0.27
+liwc_scores_categories_anx;False;False;0.06542196946325878;False;;;False;;False;;False;
+liwc_scores_categories_article;True;True;0.592437872939592;False;;F(2,780)= 0.52, p = 0.5924379, ω2 = -0.00;False;;False;;False;
+liwc_scores_categories_assent;False;False;0.7016529219909932;False;;;False;;False;;False;
+liwc_scores_categories_auxverb;False;False;0.6222229881491297;False;;;False;;False;;False;
+liwc_scores_categories_bio;False;False;0.02026623281386529;True;;;False;;False;;False;
+liwc_scores_categories_body;False;False;0.10175363428314864;False;;;False;;False;;False;
+liwc_scores_categories_cause;False;False;0.011797339001859936;True;;;True;0.11;False;;False;
+liwc_scores_categories_certain;False;False;0.524636783236685;False;;;False;;False;;False;
+liwc_scores_categories_cogproc;False;False;0.1784895327680415;False;;;False;;False;;False;
+liwc_scores_categories_compare;False;False;0.03837948204856752;True;;;False;;False;;False;
+liwc_scores_categories_conj;False;False;0.0603896163497106;False;;;False;;False;;False;
+liwc_scores_categories_death;False;False;0.049681178835082794;True;;;False;;True;-0.08;False;
+liwc_scores_categories_differ;False;False;0.09420798607446434;False;;;False;;False;;False;
+liwc_scores_categories_discrep;False;False;0.35052749629682356;False;;;False;;False;;False;
+liwc_scores_categories_drives;False;False;0.12845196913876175;False;;;False;;False;;False;
+liwc_scores_categories_family;False;False;0.2051809049362454;False;;;False;;False;;False;
+liwc_scores_categories_feel;False;False;0.6703467558788476;False;;;False;;False;;False;
+liwc_scores_categories_female;False;False;0.20114202381580273;False;;;False;;False;;False;
+liwc_scores_categories_filler;False;False;0.07096593882813894;False;;;False;;False;;False;
+liwc_scores_categories_focusfuture;False;False;0.0003020492706074184;True;;;True;-0.15;False;;False;
+liwc_scores_categories_focuspast;False;False;0.9427416108168974;False;;;False;;False;;False;
+liwc_scores_categories_focuspresent;True;True;0.4453158472623262;False;;F(2,780)= 0.81, p = 0.4453158, ω2 = -0.00;False;;False;;False;
+liwc_scores_categories_friend;False;False;0.6621283771946548;False;;;False;;False;;False;
+liwc_scores_categories_function;False;False;0.18298693699402213;False;;;False;;False;;False;
+liwc_scores_categories_health;False;False;0.5281717589425011;False;;;False;;False;;False;
+liwc_scores_categories_hear;False;False;0.9895576671651609;False;;;False;;False;;False;
+liwc_scores_categories_home;False;False;0.5806322857866701;False;;;False;;False;;False;
+liwc_scores_categories_i;False;False;0.4958427941706385;False;;;False;;False;;False;
+liwc_scores_categories_informal;False;False;0.48294729139690784;False;;;False;;False;;False;
+liwc_scores_categories_ingest;False;False;0.4596956517492927;False;;;False;;False;;False;
+liwc_scores_categories_insight;False;False;0.07699052607452465;False;;;False;;False;;False;
+liwc_scores_categories_interrog;False;False;0.01432499159908519;True;;;False;;True;-0.1;True;-0.19
+liwc_scores_categories_ipron;False;False;0.052816433682122514;False;;;False;;False;;False;
+liwc_scores_categories_leisure;False;False;0.9780146542536557;False;;;False;;False;;False;
+liwc_scores_categories_male;False;False;0.023349988492483546;True;;;True;-0.1;False;;False;
+liwc_scores_categories_money;False;False;0.015963909823100503;True;;;False;;True;0.11;False;
+liwc_scores_categories_motion;False;False;0.016487362601168457;True;;;False;;False;;True;0.2
+liwc_scores_categories_negate;False;False;0.057582439946582596;False;;;False;;False;;False;
+liwc_scores_categories_negemo;False;False;7.160420461585508e-05;True;;;True;0.09;True;-0.12;True;-0.31
+liwc_scores_categories_netspeak;False;False;0.6143014762969199;False;;;False;;False;;False;
+liwc_scores_categories_nonflu;False;False;0.7989774760005396;False;;;False;;False;;False;
+liwc_scores_categories_number;False;False;0.9689103439892245;False;;;False;;False;;False;
+liwc_scores_categories_percept;False;False;0.7861468402905687;False;;;False;;False;;False;
+liwc_scores_categories_posemo;False;False;0.0017164628968111707;True;;;True;-0.14;False;;False;
+liwc_scores_categories_power;False;False;0.0678615034208396;False;;;False;;False;;False;
+liwc_scores_categories_ppron;False;False;0.03733839649759308;True;;;False;;False;;False;
+liwc_scores_categories_prep;False;False;0.05222995031279656;False;;;False;;False;;True;0.18
+liwc_scores_categories_pronoun;False;False;0.014215845091685645;True;;;False;;True;-0.11;False;
+liwc_scores_categories_quant;False;False;0.9357244536639376;False;;;False;;False;;False;
+liwc_scores_categories_relativ;False;False;0.0036666620314396393;True;;;False;;False;;True;0.23
+liwc_scores_categories_relig;False;False;0.6927831506762734;False;;;False;;False;;False;
+liwc_scores_categories_reward;False;False;0.9831138452391563;False;;;False;;False;;False;
+liwc_scores_categories_risk;False;False;0.06910429230595834;False;;;False;;False;;False;
+liwc_scores_categories_sad;False;False;0.6821044956339181;False;;;False;;False;;False;
+liwc_scores_categories_see;False;False;0.18795884144515815;False;;;False;;False;;False;
+liwc_scores_categories_sexual;False;False;0.006711291893878916;True;;;False;;True;-0.07;False;
+liwc_scores_categories_shehe;False;False;0.008783360471149072;True;;;True;-0.11;False;;False;
+liwc_scores_categories_social;False;False;0.015812989215873312;True;;;False;;True;-0.11;False;
+liwc_scores_categories_space;False;False;0.047848195382445065;True;;;False;;False;;False;
+liwc_scores_categories_swear;False;False;0.24848822682229244;False;;;False;;False;;False;
+liwc_scores_categories_tentat;False;False;0.07407135352522146;False;;;False;;False;;False;
+liwc_scores_categories_they;False;False;0.11280236969008897;False;;;False;;False;;False;
+liwc_scores_categories_time;False;False;0.0754824426016018;False;;;False;;False;;False;
+liwc_scores_categories_verb;False;False;0.6334283906672638;False;;;False;;False;;False;
+liwc_scores_categories_we;False;False;0.021039746368336;True;;;False;;False;;False;
+liwc_scores_categories_work;False;False;0.00033015450955829105;True;;;True;0.14;False;;False;
+liwc_scores_categories_you;False;False;0.39856347003855225;False;;;False;;False;;False;
+liwc_scores_clout;False;False;0.18210795872284755;False;;;False;;False;;False;
+liwc_scores_dic;True;True;0.16056487769786332;False;;F(2,780)= 1.83, p = 0.1605649, ω2 = 0.00;False;;False;;False;
+liwc_scores_sixLtr;True;True;0.20503300255855317;False;;F(2,780)= 1.59, p = 0.2050330, ω2 = 0.00;False;;False;;False;
+liwc_scores_tone;False;False;3.2223123015412025e-05;True;;;True;-0.15;False;;True;0.28
+liwc_scores_wc;False;False;0.05332548563742769;False;;;False;;False;;False;
+liwc_scores_wps;False;False;0.7720958538548164;False;;;False;;False;;False;
+lemma1_000;False;False;0.853989468285738;False;;;False;;False;;False;
+lemma1_administr;False;False;0.06448043054610648;False;;;False;;False;;False;
+lemma1_allow;False;False;0.4638286356162301;False;;;False;;False;;False;
+lemma1_american;False;False;0.27358655799035014;False;;;False;;False;;False;
+lemma1_author;False;False;0.49744366231500936;False;;;False;;False;;False;
+lemma1_billion;False;False;0.6139568891597719;False;;;False;;False;;False;
+lemma1_budget;False;False;0.12175356986045614;False;;;False;;False;;False;
+lemma1_build;False;False;0.5640688813063914;False;;;False;;False;;False;
+lemma1_bush;False;False;0.31787961465064296;False;;;False;;False;;False;
+lemma1_campaign;False;False;0.07271108021186264;False;;;False;;False;;False;
+lemma1_care;False;False;0.9588729161356683;False;;;False;;False;;False;
+lemma1_case;False;False;0.026358526165870623;True;;;False;;False;;True;-0.15
+lemma1_chang;False;False;0.5501358674572066;False;;;False;;False;;False;
+lemma1_citi;False;False;0.1787424900836575;False;;;False;;False;;False;
+lemma1_clear;False;False;0.27318300022509495;False;;;False;;False;;False;
+lemma1_come;False;False;0.9294574368137715;False;;;False;;False;;False;
+lemma1_compani;False;False;0.11461429645119561;False;;;False;;False;;False;
+lemma1_congress;False;False;0.013732744532633573;True;;;True;0.08;False;;False;
+lemma1_control;False;False;0.6784284541512695;False;;;False;;False;;False;
+lemma1_cost;False;False;0.08332500436105596;False;;;False;;False;;False;
+lemma1_countri;False;False;0.6884862695859557;False;;;False;;False;;False;
+lemma1_court;False;False;0.6296320209141417;False;;;False;;False;;False;
+lemma1_democrat;False;False;0.46910029295768974;False;;;False;;False;;False;
+lemma1_develop;False;False;0.48517680012368125;False;;;False;;False;;False;
+lemma1_elect;False;False;0.013951270425505697;True;;;True;-0.08;False;;False;
+lemma1_feder;False;False;0.14871165602923414;False;;;False;;False;;False;
+lemma1_forc;False;False;0.8070415638120578;False;;;False;;False;;False;
+lemma1_fund;False;False;0.03486773666012106;True;;;False;;False;;False;
+lemma1_general;False;False;0.8429884073940959;False;;;False;;False;;False;
+lemma1_give;False;False;0.6428068318377932;False;;;False;;False;;False;
+lemma1_go;False;False;0.07209428707367484;False;;;False;;False;;False;
+lemma1_good;False;False;0.21167417959547868;False;;;False;;False;;False;
+lemma1_govern;False;False;0.24720150006695832;False;;;False;;False;;False;
+lemma1_governor;False;False;0.08674532095427835;False;;;False;;False;;False;
+lemma1_group;False;False;0.21497702110492117;False;;;False;;False;;False;
+lemma1_hard;False;False;0.17927847474588302;False;;;False;;False;;False;
+lemma1_health;False;False;0.4055037942088342;False;;;False;;False;;False;
+lemma1_help;False;False;0.9015090716539907;False;;;False;;False;;False;
+lemma1_high;False;False;0.46916321282476303;False;;;False;;False;;False;
+lemma1_hous;False;False;0.9236412964750523;False;;;False;;False;;False;
+lemma1_import;False;False;0.7214306378717628;False;;;False;;False;;False;
+lemma1_includ;False;False;0.2914266959314573;False;;;False;;False;;False;
+lemma1_increas;False;False;0.7820628318992253;False;;;False;;False;;False;
+lemma1_iraq;False;False;0.37802112714571523;False;;;False;;False;;False;
+lemma1_issu;False;False;0.6931086481184541;False;;;False;;False;;False;
+lemma1_know;False;False;0.8482341808700161;False;;;False;;False;;False;
+lemma1_larg;False;False;0.4871089767099761;False;;;False;;False;;False;
+lemma1_leader;False;False;0.6357318279309485;False;;;False;;False;;False;
+lemma1_legisl;False;False;0.319066043142509;False;;;False;;False;;False;
+lemma1_like;False;False;0.51463936505223;False;;;False;;False;;False;
+lemma1_long;False;False;0.7734456063526689;False;;;False;;False;;False;
+lemma1_major;False;False;0.5570996901737684;False;;;False;;False;;False;
+lemma1_make;False;False;0.9229691387716479;False;;;False;;False;;False;
+lemma1_member;False;False;0.23368452081187224;False;;;False;;False;;False;
+lemma1_million;False;False;0.6990875693463987;False;;;False;;False;;False;
+lemma1_money;False;False;0.2179663600994469;False;;;False;;False;;False;
+lemma1_month;False;False;0.12056207025078833;False;;;False;;False;;False;
+lemma1_nation;False;False;0.7129298270687718;False;;;False;;False;;False;
+lemma1_need;False;False;0.5151558671781769;False;;;False;;False;;False;
+lemma1_offic;False;False;0.23621954617526028;False;;;False;;False;;False;
+lemma1_offici;False;False;0.07603427170846738;False;;;False;;False;;False;
+lemma1_peopl;False;False;0.0814972149149759;False;;;False;;False;;False;
+lemma1_percent;False;False;0.40861237599085865;False;;;False;;False;;False;
+lemma1_plan;False;False;0.09634570621267058;False;;;False;;False;;False;
+lemma1_polit;False;False;0.00042223784203469203;True;;;True;-0.12;False;;True;0.17
+lemma1_power;False;False;0.15460121243322264;False;;;False;;False;;False;
+lemma1_presid;False;False;0.23715594307399315;False;;;False;;False;;False;
+lemma1_problem;False;False;0.36070641034623707;False;;;False;;False;;False;
+lemma1_program;False;False;0.3577809761441249;False;;;False;;False;;False;
+lemma1_propos;False;False;0.7472706719276423;False;;;False;;False;;False;
+lemma1_protect;False;False;0.07712094053127656;False;;;False;;False;;False;
+lemma1_provid;False;False;0.3073149962647634;False;;;False;;False;;False;
+lemma1_public;False;False;0.23717030033168962;False;;;False;;False;;False;
+lemma1_real;False;False;0.34497658196767955;False;;;False;;False;;False;
+lemma1_reason;False;False;0.2124026181019935;False;;;False;;False;;False;
+lemma1_recent;False;False;0.9214325112032589;False;;;False;;False;;False;
+lemma1_reform;False;False;0.3276862493814712;False;;;False;;False;;False;
+lemma1_report;False;False;0.021850618651475466;True;;;True;0.08;False;;False;
+lemma1_republican;False;False;0.6716547428359876;False;;;False;;False;;False;
+lemma1_requir;False;False;0.0036793299438932694;True;;;True;0.1;False;;False;
+lemma1_right;False;False;0.7834913951029473;False;;;False;;False;;False;
+lemma1_rule;False;False;0.02157973181520349;True;;;True;0.08;False;;False;
+lemma1_say;False;False;0.6459568927177584;False;;;False;;False;;False;
+lemma1_school;False;False;0.018040579158566487;True;;;False;;True;-0.06;False;
+lemma1_secur;False;False;0.9013310918244992;False;;;False;;False;;False;
+lemma1_senat;False;False;0.22850770086212843;False;;;False;;False;;False;
+lemma1_spend;False;False;0.2198853955079654;False;;;False;;False;;False;
+lemma1_start;False;False;0.1864034666508252;False;;;False;;False;;False;
+lemma1_state;False;False;0.5758272006043008;False;;;False;;False;;False;
+lemma1_support;False;False;0.4188045033911393;False;;;False;;False;;False;
+lemma1_take;False;False;0.32951005078630957;False;;;False;;False;;False;
+lemma1_thing;False;False;0.6132376366888811;False;;;False;;False;;False;
+lemma1_time;False;False;0.14473771278824268;False;;;False;;False;;False;
+lemma1_unit;False;False;0.09191466542018842;False;;;False;;False;;False;
+lemma1_vote;False;False;0.5305207376529026;False;;;False;;False;;False;
+lemma1_want;False;False;0.22158796873014594;False;;;False;;False;;False;
+lemma1_week;False;False;0.7674247525074228;False;;;False;;False;;False;
+lemma1_work;False;False;0.11408645278461053;False;;;False;;False;;False;
+lemma1_world;False;False;0.3960557055094872;False;;;False;;False;;False;
+lemma1_york;False;False;0.18999516644105097;False;;;False;;False;;False;
+lemma2_100 000;False;False;0.8444410954293977;False;;;False;;False;;False;
+lemma2_administr offici;False;False;0.3038232246942949;False;;;False;;False;;False;
+lemma2_afford hous;False;False;0.8405779367142235;False;;;False;;False;;False;
+lemma2_american peopl;False;False;0.4237898029886984;False;;;False;;False;;False;
+lemma2_american troop;False;False;0.9560618161984893;False;;;False;;False;;False;
+lemma2_assembl speaker;False;False;0.05499472304785458;False;;;False;;False;;False;
+lemma2_attorney general;False;False;0.4638444732546134;False;;;False;;False;;False;
+lemma2_billion dollar;False;False;0.9590065458179242;False;;;False;;False;;False;
+lemma2_billion year;False;False;0.12416300536792756;False;;;False;;False;;False;
+lemma2_bush administr;False;False;0.07676120327522819;False;;;False;;False;;False;
+lemma2_campaign financ;False;False;0.03042847898744969;True;;;False;;False;;False;
+lemma2_carbon dioxid;False;False;0.2909583950394957;False;;;False;;False;;False;
+lemma2_citi council;False;False;0.9954763582070516;False;;;False;;False;;False;
+lemma2_coast guard;False;False;0.7342204753776922;False;;;False;;False;;False;
+lemma2_counti execut;False;False;0.5588192096411567;False;;;False;;False;;False;
+lemma2_court rule;False;False;0.26226988629949366;False;;;False;;False;;False;
+lemma2_elect offici;False;False;0.5300279963723089;False;;;False;;False;;False;
+lemma2_eliot spitzer;False;False;0.09186374262815702;False;;;False;;False;;False;
+lemma2_environment protect;False;False;0.25806396847240154;False;;;False;;False;;False;
+lemma2_famili member;False;False;0.3933581327591142;False;;;False;;False;;False;
+lemma2_feder court;False;False;0.8763066784833226;False;;;False;;False;;False;
+lemma2_feder govern;False;False;0.2720319376166213;False;;;False;;False;;False;
+lemma2_fund rais;False;False;0.2781176883715468;False;;;False;;False;;False;
+lemma2_georg pataki;False;False;0.20520675426545326;False;;;False;;False;;False;
+lemma2_global warm;False;False;0.6197867707108642;False;;;False;;False;;False;
+lemma2_good govern;False;False;0.9412549000035575;False;;;False;;False;;False;
+lemma2_good news;False;False;0.8327717032951282;False;;;False;;False;;False;
+lemma2_greenhous gas;False;False;0.17297793396790415;False;;;False;;False;;False;
+lemma2_ground zero;False;False;0.019630077759645072;True;;;True;-0.02;False;;False;
+lemma2_health care;False;False;0.0933893207336486;False;;;False;;False;;False;
+lemma2_hedg fund;False;False;0.4345982145740237;False;;;False;;False;;same values;same values
+lemma2_high school;False;False;0.6915982758243355;False;;;False;;False;;False;
+lemma2_homeland secur;False;False;0.3860205306460159;False;;;False;;False;;False;
+lemma2_human right;False;False;0.23076530552211733;False;;;False;;False;;False;
+lemma2_hurrican katrina;False;False;0.5930731119965874;False;;;False;;False;;False;
+lemma2_illeg immigr;False;False;0.5590000293989942;False;;;False;;False;;False;
+lemma2_joseph bruno;False;False;0.48562683730816647;False;;;False;;False;;False;
+lemma2_justic depart;False;False;0.3092359477885563;False;;;False;;False;;False;
+lemma2_local govern;False;False;0.11210684599380254;False;;;False;;False;;False;
+lemma2_long island;False;False;0.5042594548697484;False;;;False;;False;;False;
+lemma2_long term;False;False;0.17978499452049568;False;;;False;;False;;False;
+lemma2_look like;False;False;0.40097439653482536;False;;;False;;False;;False;
+lemma2_major leader;False;False;0.07145032840013227;False;;;False;;False;;False;
+lemma2_mayor michael;False;False;0.8334673351564441;False;;;False;;False;;False;
+lemma2_member congress;False;False;0.9762636036159826;False;;;False;;False;;False;
+lemma2_michael bloomberg;False;False;0.7908881038433159;False;;;False;;False;;False;
+lemma2_million dollar;False;False;0.33402474124381576;False;;;False;;False;;False;
+lemma2_million peopl;False;False;0.22836181284630083;False;;;False;;False;;False;
+lemma2_million year;False;False;0.22065063669320917;False;;;False;;False;;False;
+lemma2_nassau counti;False;False;0.8360658799713869;False;;;False;;False;;False;
+lemma2_nation secur;False;False;0.5556189178683029;False;;;False;;False;;False;
+lemma2_north korea;False;False;0.12768036073653546;False;;;False;;False;;False;
+lemma2_nuclear weapon;False;False;0.7426343575206455;False;;;False;;False;;False;
+lemma2_nurs home;False;False;0.15534425593283577;False;;;False;;False;;False;
+lemma2_past year;False;False;0.5408977214774227;False;;;False;;False;;False;
+lemma2_place like;False;False;0.5291553117628944;False;;;False;;False;;False;
+lemma2_poor countri;False;False;0.9631462177284043;False;;;False;;False;;False;
+lemma2_power plant;False;False;0.09384415902520175;False;;;False;;False;;False;
+lemma2_presid bush;False;False;0.33621468063310284;False;;;False;;False;;False;
+lemma2_prime minist;False;False;0.04014584506994348;True;;;False;;False;;True;0.08
+lemma2_privat account;False;False;0.7342204753776922;False;;;False;;False;;False;
+lemma2_public school;False;False;0.07342080442544459;False;;;False;;False;;False;
+lemma2_re elect;False;False;0.0038906147707582425;True;;;True;-0.03;False;;False;
+lemma2_recent year;False;False;0.46576901449041275;False;;;False;;False;;False;
+lemma2_saddam hussein;False;False;0.0038448767479132523;True;;;False;;True;-0.03;False;
+lemma2_say want;False;False;0.45725677706332835;False;;;False;;False;;False;
+lemma2_school district;False;False;0.09535734422800825;False;;;False;;False;;False;
+lemma2_secretari state;False;False;0.6947187587327062;False;;;False;;False;;False;
+lemma2_secur council;False;False;0.10422101990501759;False;;;False;;False;;False;
+lemma2_senat major;False;False;0.11990731798456403;False;;;False;;False;;False;
+lemma2_sheldon silver;False;False;0.08781830809158346;False;;;False;;False;;False;
+lemma2_so cal;False;False;0.7567592140139139;False;;;False;;False;;False;
+lemma2_social secur;False;False;0.776064750412111;False;;;False;;False;;False;
+lemma2_state attorney;False;False;0.44177785603000164;False;;;False;;False;;False;
+lemma2_state budget;False;False;0.27646665856468894;False;;;False;;False;;False;
+lemma2_state court;False;False;0.740078559993554;False;;;False;;False;;False;
+lemma2_state depart;False;False;0.47914476708306597;False;;;False;;False;;False;
+lemma2_state govern;False;False;0.8530385718768713;False;;;False;;False;;False;
+lemma2_state legisl;False;False;0.682489606419213;False;;;False;;False;;False;
+lemma2_state legislatur;False;False;0.8319341248698287;False;;;False;;False;;False;
+lemma2_state local;False;False;0.711947822320949;False;;;False;;False;;False;
+lemma2_state offici;False;False;0.5509018959325813;False;;;False;;False;;False;
+lemma2_state senat;False;False;0.437743368349506;False;;;False;;False;;False;
+lemma2_stem cell;False;False;0.4744979874724644;False;;;False;;False;;False;
+lemma2_suffolk counti;False;False;0.313414255697783;False;;;False;;False;;False;
+lemma2_sunni arab;False;False;0.10732380071554265;False;;;False;;False;;False;
+lemma2_suprem court;False;False;0.6820501601928739;False;;;False;;False;;False;
+lemma2_terrorist attack;False;False;0.7168170500902384;False;;;False;;False;;False;
+lemma2_trade center;False;False;0.002022806377122756;True;;;True;-0.03;False;;False;
+lemma2_transport author;False;False;0.40477009608135583;False;;;False;;False;;False;
+lemma2_unit nation;False;False;0.3228149239382248;False;;;False;;False;;False;
+lemma2_unit state;False;False;0.0769829709292965;False;;;False;;False;;False;
+lemma2_vote machin;False;False;0.4812186131076035;False;;;False;;False;;False;
+lemma2_west bank;False;False;0.11035708665351947;False;;;False;;False;;False;
+lemma2_white hous;False;False;0.8327533680834915;False;;;False;;False;;False;
+lemma2_world trade;False;False;0.02353827080957797;True;;;True;-0.03;False;;False;
+lemma2_year old;False;False;0.5514970529233802;False;;;False;;False;;False;
+lemma2_york citi;False;False;0.027593239042681766;True;;;False;;False;;False;
+lemma2_york legislatur;False;False;0.333551064112099;False;;;False;;False;;False;
+lemma2_york state;False;False;0.6694006342492519;False;;;False;;False;;False;
+lemma3_000 squar foot;False;False;0.0561207494641241;False;;;False;;False;;False;
+lemma3_arm servic committe;False;False;0.36740770766836656;False;;;False;;False;;same values;same values
+lemma3_armi corp engin;False;False;0.3104729092001308;False;;;False;;False;;same values;same values
+lemma3_assembl speaker sheldon;False;False;0.23886160249448743;False;;;False;;False;;False;
+lemma3_attorney general alberto;False;False;0.2492400384013212;False;;;False;;False;;False;
+lemma3_attorney general eliot;False;False;0.19584908893299618;False;;;False;;False;;False;
+lemma3_attorney general offic;False;False;0.47964495251336425;False;;;False;;False;;False;
+lemma3_bigger better bottl;False;False;0.7570887709945087;False;;;False;;False;;False;
+lemma3_bruno senat major;False;False;0.13291611492835978;False;;;False;;False;;same values;same values
+lemma3_campaign financ law;False;False;0.10810534880929364;False;;;False;;False;;False;
+lemma3_campaign financ reform;False;False;0.4188390029759619;False;;;False;;False;;False;
+lemma3_carbon dioxid emiss;False;False;0.5180447562833387;False;;;False;;False;;False;
+lemma3_coal fir power;False;False;0.22141685412914683;False;;;False;;False;;same values;same values
+lemma3_comptrol alan hevesi;False;False;0.7631872566601074;False;;;False;;False;;False;
+lemma3_defens secretari donald;False;False;0.435547172387063;False;;;False;;False;;False;
+lemma3_depart environment conserv;False;False;0.39404062140702795;False;;;False;;False;;False;
+lemma3_electron vote machin;False;False;0.36740831233311083;False;;;False;;False;;same values;same values
+lemma3_emiss carbon dioxid;False;False;0.893569112577655;False;;;False;;False;;False;
+lemma3_environment protect agenc;False;False;0.45713473233739355;False;;;False;;False;;False;
+lemma3_fir power plant;False;False;0.22141685412914683;False;;;False;;False;;same values;same values
+lemma3_food drug administr;False;False;0.5489582910194739;False;;;False;;False;;False;
+lemma3_for food program;False;False;0.06532256629024386;False;;;False;;False;;False;
+lemma3_fuel effici car;False;False;0.6647671265820438;False;;;False;;False;;False;
+lemma3_general alberto gonzal;False;False;0.2492400384013212;False;;;False;;False;;False;
+lemma3_general eliot spitzer;False;False;0.19584908893299618;False;;;False;;False;;False;
+lemma3_good govern advoc;False;False;0.43459773896515685;False;;;False;;False;;same values;same values
+lemma3_good govern group;False;False;0.22141636451432903;False;;;False;;False;;same values;same values
+lemma3_health human servic;False;False;0.7294765925652691;False;;;False;;False;;False;
+lemma3_homeland secur depart;False;False;0.49976974863231083;False;;;False;;False;;False;
+lemma3_hundr million dollar;False;False;0.11706236666962339;False;;;False;;False;;False;
+lemma3_independ budget offic;False;False;0.31047222616913633;False;;;False;;False;;same values;same values
+lemma3_intern freedom center;False;False;0.18563579574948874;False;;;False;;False;;False;
+lemma3_island rail road;False;False;0.2736794281533564;False;;;False;;False;;False;
+lemma3_joseph bruno senat;False;False;0.23862668360311867;False;;;False;;False;;False;
+lemma3_kamal al maliki;False;False;0.5399525558083165;False;;;False;;False;;False;
+lemma3_leader joseph bruno;False;False;0.7440365338242162;False;;;False;;False;;False;
+lemma3_leader sheldon silver;False;False;0.22141489566775335;False;;;False;;False;;same values;same values
+lemma3_like york citi;False;False;0.7573050447085621;False;;;False;;False;;False;
+lemma3_long island rail;False;False;0.2736794281533564;False;;;False;;False;;False;
+lemma3_long island sound;False;False;0.4824202006080218;False;;;False;;False;;False;
+lemma3_lower manhattan develop;False;False;0.10145519316614905;False;;;False;;False;;False;
+lemma3_major leader joseph;False;False;0.243363328084144;False;;;False;;False;;False;
+lemma3_major leader sheldon;False;False;0.26224464818984106;False;;;False;;False;;same values;same values
+lemma3_mayor michael bloomberg;False;False;0.8185667569607107;False;;;False;;False;;False;
+lemma3_metropolitan transport author;False;False;0.4207780948888459;False;;;False;;False;;False;
+lemma3_minist ariel sharon;False;False;0.1123030932130478;False;;;False;;False;;False;
+lemma3_minist ehud olmert;False;False;0.48131161697799074;False;;;False;;False;;False;
+lemma3_minist nuri kamal;False;False;0.9148658480313885;False;;;False;;False;;False;
+lemma3_minist toni blair;False;False;0.18983929108863662;False;;;False;;False;;False;
+lemma3_nation academi scienc;False;False;0.2214150180717569;False;;;False;;False;;same values;same values
+lemma3_nation secur council;False;False;0.2397846958505898;False;;;False;;False;;False;
+lemma3_nonpartisan redistrict commiss;False;False;0.6785793133012274;False;;;False;;False;;False;
+lemma3_nuclear weapon program;False;False;0.515874894021707;False;;;False;;False;;False;
+lemma3_nuri kamal al;False;False;0.5399525558083165;False;;;False;;False;;False;
+lemma3_oil for food;False;False;0.06473840451109675;False;;;False;;False;;False;
+lemma3_out of control;False;False;0.2176360555600571;False;;;False;;False;;False;
+lemma3_out of st;False;False;0.729502692742297;False;;;False;;False;;False;
+lemma3_port author york;False;False;0.008361188894371208;True;;;True;-0.02;False;;False;
+lemma3_presid dick cheney;False;False;0.5294333144453667;False;;;False;;False;;False;
+lemma3_presid mahmoud abba;False;False;0.007998394667160368;True;;;True;-0.02;False;;False;
+lemma3_prime minist ariel;False;False;0.1123030932130478;False;;;False;;False;;False;
+lemma3_prime minist ehud;False;False;0.48131161697799074;False;;;False;;False;;False;
+lemma3_prime minist nuri;False;False;0.9682198289421823;False;;;False;;False;;False;
+lemma3_prime minist toni;False;False;0.18983929108863662;False;;;False;;False;;False;
+lemma3_public research group;False;False;0.1868627202932261;False;;;False;;False;;same values;same values
+lemma3_secretari donald rumsfeld;False;False;0.435547172387063;False;;;False;;False;;False;
+lemma3_secretari state condoleezza;False;False;0.16846335806197388;False;;;False;;False;;False;
+lemma3_senat john mccain;False;False;0.25763874965653427;False;;;False;;False;;False;
+lemma3_senat judiciari committe;False;False;0.9412037677540247;False;;;False;;False;;False;
+lemma3_senat major leader;False;False;0.07954899153287336;False;;;False;;False;;False;
+lemma3_senat nichola spano;False;False;0.412512772140608;False;;;False;;False;;False;
+lemma3_sheldon silver assembl;False;False;0.3519237803704791;False;;;False;;False;;False;
+lemma3_silver assembl speaker;False;False;0.22141489566775335;False;;;False;;False;;same values;same values
+lemma3_speaker sheldon silver;False;False;0.20456167918369517;False;;;False;;False;;False;
+lemma3_state condoleezza rice;False;False;0.16846335806197388;False;;;False;;False;;False;
+lemma3_state court appeal;False;False;0.6774638914768036;False;;;False;;False;;False;
+lemma3_state depart environment;False;False;0.18686282385996397;False;;;False;;False;;same values;same values
+lemma3_state state address;False;False;0.6770855437673333;False;;;False;;False;;False;
+lemma3_state suprem court;False;False;0.1449745843379468;False;;;False;;False;;False;
+lemma3_stem cell research;False;False;0.47361617649168597;False;;;False;;False;;False;
+lemma3_suffer mental ill;False;False;0.3674044827729669;False;;;False;;False;;same values;same values
+lemma3_suprem court decis;False;False;0.009148248944105174;True;;;False;;True;-0.02;False;
+lemma3_suprem court rule;False;False;0.8936417313808979;False;;;False;;False;;False;
+lemma3_trade center site;False;False;0.0030462113474985855;True;;;True;-0.02;False;;False;
+lemma3_unit nation secur;False;False;0.2397846958505898;False;;;False;;False;;False;
+lemma3_unit state court;False;False;0.534777672726736;False;;;False;;False;;False;
+lemma3_unit state militari;False;False;0.6780272747675332;False;;;False;;False;;False;
+lemma3_unit state trade;False;False;0.31047222616913633;False;;;False;;False;;same values;same values
+lemma3_verifi paper record;False;False;0.43459797676968226;False;;;False;;False;;same values;same values
+lemma3_vote machin produc;False;False;0.3104729092001308;False;;;False;;False;;same values;same values
+lemma3_voter verifi paper;False;False;0.43459797676968226;False;;;False;;False;;same values;same values
+lemma3_wall street journal;False;False;0.2622447927947063;False;;;False;;False;;same values;same values
+lemma3_weapon mass destruct;False;False;0.05076752619835698;False;;;False;;False;;False;
+lemma3_world trade center;False;False;0.002018573430902525;True;;;True;-0.03;False;;False;
+lemma3_world trade organ;False;False;0.3674075061132318;False;;;False;;False;;same values;same values
+lemma3_year presid bush;False;False;0.24654272856563444;False;;;False;;False;;False;
+lemma3_york public research;False;False;0.1868627202932261;False;;;False;;False;;same values;same values
+lemma3_york state budget;False;False;0.6785793133012274;False;;;False;;False;;False;
+lemma3_york state capitol;False;False;0.6162000127802514;False;;;False;;False;;False;
+lemma3_york state legislatur;False;False;0.35082012246647054;False;;;False;;False;;False;

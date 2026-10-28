@@ -1,0 +1,46 @@
+.ide
+.ipynb_checkpoints
+
+# OS / editor
+.DS_Store
+.history/
+.vscode/
+.idea/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Testing / coverage / tooling caches
+.pytest_cache/
+
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+.idea
+
+
+# Data
+Ccor

@@ -1,0 +1,32 @@
+[project]
+name = "peoples2020-editorials-analysis"
+version = "0.1.0"
+description = "Analysis of People's 2020 editorials"
+requires-python = ">=3.8,<3.9"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn<1.2",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "wordcloud",
+    "nltk",
+    "gensim",
+    "pyLDAvis<3",
+    "kneed",
+    "langdetect",
+    "spacy<3",
+    "spacy-arguing-lexicon",
+    "jupyter",
+    "ipykernel",
+    "en-core-web-sm",
+]
+
+[tool.uv]
+# Code dates from Dec 2020; a 2022 cutoff is needed for Apple-silicon (arm64) numpy wheels.
+exclude-newer = "2022-12-31T00:00:00Z"
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz" }
